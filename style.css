@@ -1,0 +1,46 @@
+/* Default CSS */
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling components */
+.bold{
+    font-weight: bold;
+}
+
+.underlined{
+    text-decoration: underline;
+}
+
+/* main CSS */
+main{
+    border: 2px solid black;
+    padding: 6px 5px;
+}
+
+.box{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: red;
+    color: #ffffff;
+}
+
+.font_size{
+    font-size: 1.2rem;
+}
+
+#dob{
+    margin-right: 12px;
+}
